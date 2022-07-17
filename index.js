@@ -7,8 +7,8 @@ var heading = document.getElementsByTagName("h1")[0];
 playButton.addEventListener("click", function() {
     var randomNumber1 = Math.floor(Math.random() * 6) + 1;
     var randomNumber2 = Math.floor(Math.random() * 6) + 1;
-    var imgSrc1 = `/images/dice${randomNumber1}.png`;
-    var imgSrc2 = `/images/dice${randomNumber2}.png`;
+    var imgSrc1 = `./images/dice${randomNumber1}.png`;
+    var imgSrc2 = `./images/dice${randomNumber2}.png`;
     // Changing button text
     playButton.innerHTML = "Play Again";
 
